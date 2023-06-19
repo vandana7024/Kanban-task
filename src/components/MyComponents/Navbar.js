@@ -33,12 +33,12 @@ function Navbar() {
           />
         </div>
         <div className="flex gap-12 justify-center items-center">
-          <div className="flex gap-6 text-2xl text-[#787486]">
+          <div className="flex gap-6 text-2xl text-[#787486] cursor-pointer">
             <img src={calender} alt="" />
             <img src={messageQuestion} alt="" />
             <img src={notification} alt="" />
           </div>
-          <div className="md:flex justify-center items-center gap-2 md:6 hidden">
+          <div className="md:flex justify-center items-center gap-2 md:6 hidden cursor-pointer">
             <div
               className="md:flex flex-col justify-end  items-end 
             text-[#787486] leading-5  "

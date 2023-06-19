@@ -30,7 +30,7 @@ function Cards({ item, index, onDragStart, onDragOver, onDrop }) {
           >
             {item?.priority}
           </p>
-          <p>
+          <p className="cursor-pointer">
             <svg
               width="14"
               height="5"
@@ -66,14 +66,14 @@ function Cards({ item, index, onDragStart, onDragOver, onDrop }) {
             <img className="w-8 h-8 rounded-full -ml-2" src={man3} alt="" />
           </div>
           <div className="flex gap-2 items-center">
-            <div className="flex justify-center items-center  text-xs text-[#787486] gap-1">
+            <div className="flex justify-center items-center  text-xs text-[#787486] gap-1 cursor-pointer">
               <img src={message} alt="" className="w-4 h-4" />
               <p className="text-[#787486] text-xs ">
                 {item?.comments} comments
               </p>
             </div>
             <div>
-              <p className="text-[#787486] text-xs flex justify-center items-center gap-1">
+              <p className="text-[#787486] text-xs flex justify-center items-center gap-1 cursor-pointer">
                 <img src={file} alt="" className="w-4 h-4" />
                 {item?.files}files
               </p>

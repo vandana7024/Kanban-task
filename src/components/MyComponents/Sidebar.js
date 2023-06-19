@@ -18,7 +18,7 @@ function Sidebar() {
         aria-label="Sidebar"
       >
         <div className="h-14 flex justify-center items-center border-b-2 border-[#DBDBDB]">
-          <div className="flex justify-between items-center  w-full px-6">
+          <div className="flex justify-between items-center  w-full px-6 cursor-pointer">
             <div className="flex gap-3">
               <img src={colorfilter} alt="" />
               <h1 className="text-xl font-semibold">Project M.</h1>
@@ -63,7 +63,7 @@ function Sidebar() {
             </li>
             <hr />
           </ul>
-          <div className="flex justify-between items-center px-3 text-sm font-bold uppercase mt-7">
+          <div className="flex justify-between items-center px-3 text-sm font-bold uppercase mt-7 cursor-pointer">
             <div>My Projects</div>
             <img src={add} alt="" />
           </div>

@@ -13,12 +13,12 @@ function SubHeader() {
     <div className=" w-full  ">
       <div className="flex flex-col gap-10">
         <div className="flex justify-between items-center">
-          <div className="flex gap-1">
+          <div className="flex gap-1 cursor-pointer">
             <h1 className="text-3xl font-bold">Mobile App</h1>
             <img src={fileIcon} alt="" />
             <img src={EditIcon} alt="" />
           </div>
-          <div className="hidden md:flex ">
+          <div className="hidden md:flex cursor-pointer">
             <img src={group} alt="" />
           </div>
         </div>
@@ -69,8 +69,8 @@ function SubHeader() {
             </button>
           </div>
 
-          <div className="flex  justify-center items-center gap-4">
-            <button className="text-[#787486] border px-3 py-2 rounded-md flex justify-center items-center gap-1">
+          <div className="flex  justify-center items-center gap-4 ">
+            <button className="text-[#787486] border px-3 py-2 rounded-md flex justify-center items-center gap-1 ">
               <img src={user} alt="" className="w-4 h-4" />
               Share
             </button>
@@ -78,7 +78,7 @@ function SubHeader() {
               <img src={divider} alt="" />
             </div>
             <div>
-              <img src={groupBlue} alt="" />
+              <img src={groupBlue} alt="" className="cursor-pointer" />
             </div>
           </div>
         </div>
