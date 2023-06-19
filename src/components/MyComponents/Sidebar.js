@@ -11,7 +11,7 @@ import lamp from "../../assets/lamp-on.png";
 
 function Sidebar() {
   return (
-    <div className="border-r-2">
+    <div className="border-r-2 hidden md:block">
       <aside
         id="default-sidebar"
         class="sticky top-0 left-0 z-40 w-64  transition-transform -translate-x-full   sm:translate-x-0"

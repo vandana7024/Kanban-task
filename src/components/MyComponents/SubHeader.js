@@ -18,7 +18,7 @@ function SubHeader() {
             <img src={fileIcon} alt="" />
             <img src={EditIcon} alt="" />
           </div>
-          <div>
+          <div className="hidden md:flex ">
             <img src={group} alt="" />
           </div>
         </div>

@@ -1,8 +1,5 @@
 import React from "react";
-import { IoIosNotificationsOutline } from "react-icons/io";
-import { RiQuestionnaireLine } from "react-icons/ri";
 import girl1 from "../../assets/girl1.png";
-import { AiOutlineCalendar } from "react-icons/ai";
 import { BsChevronDown } from "react-icons/bs";
 import notification from "../../assets/notification.png";
 import messageQuestion from "../../assets/message-question.png";
@@ -13,7 +10,7 @@ function Navbar() {
     <div className="h-14 bg-white top-0 sticky flex items-center w-100 justify-center border-b-2 border-[#DBDBDB] ">
       <div className=" w-full m-2 mx-4 flex justify-between items-center ">
         <div class="relative">
-          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <div class="absolute inset-y-0 left-0 flex items-center md:pl-3 pointer-events-none ">
             <svg
               class="w-5 h-5 text-gray-500"
               aria-hidden="true"
@@ -31,7 +28,7 @@ function Navbar() {
           <input
             type="text"
             id="search-navbar"
-            class="block w-full p-2 pl-10 text-sm text-[#787486] rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 px-20 outline-none"
+            class="block w-full p-2 pl-10 text-sm text-[#787486] rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 md:px-20 outline-none px-2"
             placeholder="Search... "
           />
         </div>
@@ -41,10 +38,10 @@ function Navbar() {
             <img src={messageQuestion} alt="" />
             <img src={notification} alt="" />
           </div>
-          <div className="flex justify-center items-center gap-6">
+          <div className="md:flex justify-center items-center gap-2 md:6 hidden">
             <div
-              className="flex flex-col justify-end  items-end 
-            text-[#787486] leading-5"
+              className="md:flex flex-col justify-end  items-end 
+            text-[#787486] leading-5  "
             >
               <p className="text-lg text-[#0D062D]"> Anima Agrawal</p>
               <p className="text-sm">UP, India</p>
