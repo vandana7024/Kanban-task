@@ -117,7 +117,7 @@ function TodoCard({ key, type, length, data, color }) {
             </div>
           </div>
           {type === "To Do" && (
-            <div className="text-[#5030E5]  text-xl font-extrabold bg-[#FDF3E7] rounded-md p-1">
+            <div className="text-[#5030E5]  text-xl font-extrabold bg-[#FDF3E7] rounded-md p-1 cursor-pointer">
               <AiOutlinePlus />{" "}
             </div>
           )}
